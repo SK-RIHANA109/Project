@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SK Rihana | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1><center>PORTFOLIO</center></h1>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+<br>
+      <a href="#about">About</a>
+<br>
+      <a href="#skills">Skills</a>
+<br>
+      <a href="#project">Projects</a>
+<br>
+      <a href="#contact">Contact</a>
+<br>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, it's me</h3>
+      <h1>SK Rihana</h1>
+      <h3>And I'm a <span class="text"></span></h3>
+      <p>
+        A passionate Computer Science & Engineering (AI & ML) student with strong skills in Python, Java, Web Development, and AI/ML technologies. I enjoy solving problems and building scalable applications.
+      </p>
+      <div class="home-sci">
+        <a href="https://wa.me/918957818597" style="--i: 1"><i class="bx bxl-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/sk-rihana-092a56269" style="--i: 2"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/Sk-Rihana/Skrihana" style="--i: 3"><i class="bx bxl-github"></i></a>
+      </div>
+      <a href="#about" class="btn-box">More About Me</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-text">
+      <h2>About <span>Me</span></h2>
+      <h4>Software Engineering Student</h4>
+      <p>
+        I'm a motivated and detail-oriented engineering student with a focus on Artificial Intelligence and Machine Learning. I have a strong foundation in Python, Java, C++, SQL, and Web Development, and enjoy working on innovative projects that create real-world impact.
+      </p>
+      <a href="#skills" class="btn-box">My Skills</a>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container1">
+      <h1 class="heading1">Technical Skills</h1>
+      <ul class="skill-list">
+        <li><strong>Languages:</strong> Python, Java, C++, SQL, .NET (Beginner)</li>
+        <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Tools:</strong> Git, VS Code</li>
+        <li><strong>Concepts:</strong> DBMS, DSA, Machine Learning</li>
+      </ul>
+      <h1 class="heading1">Professional Skills</h1>
+      <ul class="skill-list">
+        <li>Problem Solving</li>
+        <li>Teamwork</li>
+        <li>Creativity</li>
+        <li>Communication</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="project">
+    <div class="portfolio">
+      <h2 class="project-title">Latest <span>Projects</span></h2>
+      <div class="portfolio-content">
+        <div class="row">
+          <div class="layer">
+            <h5>Air Quality Map Downscaling (SIH)</h5>
+            <p>Enhancing satellite-based air quality maps using AI & ML to provide localized and precise pollution data.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="layer">
+            <h5>Learning Content Recommendation (Talent Farm)</h5>
+            <p>Built a machine learning-based system that recommends personalized courses using NLP and collaborative filtering.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Contact <span>Me</span></h2>
+      <p>Feel free to reach out to collaborate or just have a chat!</p>
+      <div class="contact-list">
+        <li><i class="bx bxs-send"></i> skrihana93@gmail.com</li>
+        <li><i class="bx bxs-phone"></i> +91 9494871354</li>
+      </div>
+      <div class="contact-icon">
+        <a href="https://github.com/Sk-Rihana/Skrihana"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/sk-rihana-092a56269"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form action="#">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <input type="text" placeholder="Subject" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="send" />
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="last-text">
+      <p> 2025 SK Rihana | Designed with ❤️</p>
+    </div>
+    <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+  </footer>
+
+  <!-- Typed.js Init -->
+  <script>
+    const typed = new Typed(".text", {
+      strings: ["Web Developer", "AI/ML Enthusiast", "Full Stack Learner"],
+      typeSpeed: 100,
+      backSpeed: 50,
+      loop: true
+    });
+  </script>
+</body>
+</html>
